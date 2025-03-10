@@ -3,7 +3,7 @@ package com.elpunto.app.common;
 public class Constantes {
 
     //Con cable
-    public static final String URL_BASE = "http://192.168.0.15:9898";
+    public static final String URL_BASE = "http://localhost:9898";
 
     //Con wifi
     //public static final String URL_BASE = "http://192.168.0.19:9898";

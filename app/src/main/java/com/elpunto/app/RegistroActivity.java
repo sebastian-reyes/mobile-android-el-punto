@@ -47,6 +47,12 @@ public class RegistroActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), respuesta, Toast.LENGTH_LONG).show();
     }
 
+    /*
+    Antes Dios y yo sabíamos como funciona este código
+    ahora solo Dios lo sabe,
+    suerte al siguiente programador que intente refactorizar esta aberración
+     */
+
     public void Registro() throws JSONException {
         RequestQueue colaPeticiones = Volley.newRequestQueue(this);
         Map<String, Object> parametros = new HashMap<>();
